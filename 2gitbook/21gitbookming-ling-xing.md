@@ -9,7 +9,7 @@
 
 3. 所以想在系统上的任何地方的gitbook命令，需要安装“gitbook CLI”，执行以下命令： npm install -g gitbook-cli
 
-> gitbook-cli 会自动安装最新版本的gitbook，所以我们可以用npm uninstall gitbook -g 去卸载之前安装的gitbook
+       &gt; gitbook-cli 会自动安装最新版本的gitbook，所以我们可以用npm uninstall gitbook -g 去卸载之前安装的gitbook
 
 
 
