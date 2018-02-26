@@ -58,13 +58,29 @@
 >
 > 之后，可以用浏览器打开[http://127.0.0.1:4000](http://127.0.0.1:4000/)查看书籍的效果，如下图：
 
-    ![](/assets/2018-02-26_165413.png)
+```
+![](/assets/2018-02-26_165413.png)
+```
 
 > 注： 如果运行之后出现如下错误，只需关闭杀毒软件即可：
 >
-> Error: ENOENT: no such file or directory, stat 'C:\Users\feiyue\Desktop\gitbooks\\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js'
+> Error: ENOENT: no such file or directory, stat 'C:\Users\feiyue\Desktop\gitbooks\\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js
+>
+> 到此，你就可以自己在电脑上开始写书了
 
-* 到此，你就可以自己在电脑上开始写书了
+
+
+---------------------------------------------------------------------------------
+
+# 总结：
+
+> 学会如下命令即可：
+>
+> 安装gitbook-cli：npm install gitbook-cli -g
+>
+> 初始化目录：gitbook init
+>
+> 在浏览器上查看效果： gitbook serve
 
 
 
