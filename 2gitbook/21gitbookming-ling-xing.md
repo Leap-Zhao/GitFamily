@@ -15,7 +15,9 @@
    >
    > 注： 推荐直接安装gitbook-cli，而不是先安装gitbook最后再卸载，省去不必要的麻烦
 
-       ![](/assets/2018-02-26_155146.png)
+   ```
+   ![](/assets/2018-02-26_155146.png)
+   ```
 
 # gitBook-cli相关命令
 
@@ -30,7 +32,9 @@
 >
 > README.md 和 SUMMARY.md 是两个必须文件，README.md 是对书籍的简单介绍，SUMMARY.md 是书籍的目录结构
 
-      ![](/assets/2018-02-26_160602.png)     ![](/assets/2018-02-26_162958.png)
+```
+  ![](/assets/2018-02-26_160602.png)     ![](/assets/2018-02-26_162958.png)
+```
 
 > 接下来往生成的SUMMARY.md文件中添加如下的目录结构：
 
@@ -40,22 +44,27 @@
   * [Section1.1](chapter1/section1.1.md)
   * [Section1.2](chapter1/section1.2.md)
 * [Chapter2](chapter2/README.md)
-
 ```
 
 > 重新运行gitbook init命令
 
 ![](/assets/2018-02-26_163356.png) ![](/assets/2018-02-26_163337.png)
 
-
-
 * ## gitbook server
 
 > 书籍目录结构创建完成以后，就可以使用gitbook server命令来编译和预览书籍了。
 >
-> `gitbook serve`命令实际上会首先调用`gitbook build`编译书籍，完成以后会打开一个 web 服务器，监听在本地的 4000 端口。
+> gitbook server命令实际上会首先调用gitbook build命令编译书籍，完成以后打开一个 web 服务器，监听在本地的 4000 端口。
 >
-> 现在，可以用浏览器打开[http://127.0.0.1:4000](http://127.0.0.1:4000/)查看书籍的效果，如下图：
+> 之后，可以用浏览器打开[http://127.0.0.1:4000](http://127.0.0.1:4000/)查看书籍的效果，如下图：
+
+    ![](/assets/2018-02-26_165413.png)
+
+> 注： 如果运行之后出现如下错误，只需关闭杀毒软件即可：
+>
+> Error: ENOENT: no such file or directory, stat 'C:\Users\feiyue\Desktop\gitbooks\\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js'
+
+* 到此，你就可以自己在电脑上开始写书了
 
 
 
