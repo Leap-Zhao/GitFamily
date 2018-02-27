@@ -30,7 +30,9 @@
 >
 > README.md 和 SUMMARY.md 是两个必须文件，README.md 是对书籍的简单介绍，SUMMARY.md 是书籍的目录结构
 
-      ![](/assets/2018-02-26_160602.png)     ![](/assets/2018-02-26_162958.png)
+```
+  ![](/assets/2018-02-26_160602.png)     ![](/assets/2018-02-26_162958.png)
+```
 
 > 接下来往生成的SUMMARY.md文件中添加如下的目录结构：
 
@@ -54,13 +56,19 @@
 >
 > 之后，可以用浏览器打开[http://127.0.0.1:4000](http://127.0.0.1:4000/)查看书籍的效果，如下图：
 
-  ![](/assets/2018-02-26_165413.png)
+![](/assets/2018-02-26_165413.png)
 
 > 注： 如果运行之后出现如下错误，只需关闭杀毒软件即可：
 >
 > Error: ENOENT: no such file or directory, stat 'C:\Users\feiyue\Desktop\gitbooks\\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js
 >
 > 到此，你就可以自己在电脑上开始写书了
+
+* ## gitbook build
+
+> 执行 gitbook build 会根据 gitbook init 生成的 md 文件生成对应的 html 文件
+>
+> gitbook build mygitbook ./output  \(其中output为要输出的目录，不写默认为\_book目录\)
 
 ---
 
