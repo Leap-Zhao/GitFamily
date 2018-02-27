@@ -70,6 +70,9 @@
 >
 > gitbook build mygitbook ./output  \(其中output为要输出的目录，不写默认为\_book目录\)
 
+* 注意：执行build可生成书籍的静态网页版，但是从 3.0.0 版起, gitbook build 生成的 website 就不支持 local 打开了（生成本地 html 现在有两个问题：第一，生成的内容没有类似 1.1 1.1.1 之类的章节号；第二，直接打开 html 是不能在点击左边目录时跳转的，报错是跨域。）, 必需要 webserver 开启;   实在要完全静态的, 就安装 2.6.7 版吧\( 在有些浏览器下估计不太完美\)
+* 上面提到的问题可用 gitbook build --gitbook=2.6.7 解决
+
 ---
 
 # 总结：
