@@ -77,7 +77,10 @@
 * ## gitbook pdf 与 gitbook mobi
 
 > * 这两个命令是用来生成pdf与mobi格式的书籍的，但GitBook 生成 mobi 格式和pdf格式的电子书依赖 Calibre 的 ebook-convert，所以要先安装Calibre
-> * 安装Calibre 参考\[这里\]\(https://bookfere.com/tools\#calibre\)
+> * 安装Calibre 参考\[这里\]\([https://bookfere.com/tools\#calibre\](https://bookfere.com/tools#calibre\)\)
+> * gitbook pdf/mobi 项目文件 生成的文件.pdf/.mobi
+
+![](/assets/2018-02-27_144940.png)![](/assets/2018-02-27_145228.png)
 
 ---
 
