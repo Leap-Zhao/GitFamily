@@ -1,3 +1,9 @@
-# My Awesome Book
+# 关于本书
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+> * 本书起名叫Git Family，意为介绍一些git相关的东西，比如git，github，gitbook等。
+>
+> * 对于一个初学者或者从来没接触过git相关操作的人来说，很难短时间内理解各个概念和用法，我当时就查了不少资料，所以想写一本书来改善这种情况，也是对相关知识的总结。
+> * 第一次写难免有写的不到位的地方，请大家多多指教与改进。
+
+
+
