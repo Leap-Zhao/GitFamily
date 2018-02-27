@@ -74,6 +74,13 @@
   实在要完全静态的, 就安装 2.6.7 版吧\( 在有些浏览器下估计不太完美\)
 * 上面提到的问题可用 gitbook build --gitbook=2.6.7 解决
 
+* ## gitbook pdf 与 gitbook mobi 
+
+> * 这两个命令是用来生成pdf与mobi格式的书籍的，但GitBook 生成 mobi 格式和pdf格式的电子书依赖 Calibre 的 ebook-convert，所以要先安装Calibre
+> * 安装Calibre 参考\[这里\]\(https://bookfere.com/tools\#calibre\)
+
+
+
 ---
 
 # 总结：
@@ -86,7 +93,7 @@
 >
 > 在浏览器上查看效果： gitbook serve
 >
-> 生成静态网页版： gitbook build
+> 生成静态网页版： gitbook build . ./outbook
 
 
 
